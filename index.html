@@ -1,12 +1,43 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Básica</title>
+    <title>Cuenta Regresiva de Cumpleaños</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hola Mundo</h1>
-    <p>Esta es una página HTML básica.</p>
+    <div class="countdown-container">
+        <h1>Esto falta para tu Cumpleaños amor :3</h1>
+        <div id="countdown">
+            <div><span id="days"></span> Días</div>
+            <div><span id="hours"></span> Horas</div>
+            <div><span id="minutes"></span> Minutos</div>
+            <div><span id="seconds"></span> Segundos</div>
+        </div>
+    </div>
+    <div id="birthday-message" class="hidden">
+        <h1>¡Feliz Cumpleaños!</h1>
+        <a href="photos.html" class="button">Ver Fotos</a>
+    </div>
+    <div class="balloons hidden" id="balloons-top">
+        <div class="balloon red"></div>
+        <div class="balloon blue"></div>
+        <div class="balloon green"></div>
+        <div class="balloon yellow"></div>
+        <div class="balloon purple"></div>
+        <div class="balloon pink"></div>
+        <div class="balloon orange"></div>
+    </div>
+    <div class="balloons hidden" id="balloons-bottom">
+        <div class="balloon red"></div>
+        <div class="balloon blue"></div>
+        <div class="balloon green"></div>
+        <div class="balloon yellow"></div>
+        <div class="balloon purple"></div>
+        <div class="balloon pink"></div>
+        <div class="balloon orange"></div>
+    </div>
+    <script src="scripts.js"></script>
 </body>
 </html>
